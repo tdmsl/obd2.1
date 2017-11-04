@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comandos">
+        <item>,Selecciona CMD,</item>
+        <item>ATI,ELM version information</item>
+        <item>ATZ,inicializacion</item>
+        <item>ATD,Set all to default</item>
+        <item>ATPC,Terminates current diagnostic session</item>
+        <item>ATH0,Set headers parameter (turned off)</item>
+        <item>ATH1,Set headers parameter (turned on)</item>
+        <item>ATSP0,ESTABLECE PROTOCOLO AUTO</item>
+        <item>ATSP1,Set protocol SAE J1850 PWM (41.6 kbaud)</item>
+        <item>ATSP2,Set protocol SAE J1850 VPW (10.4 kbaud)</item>
+        <item>ATSP3,Set protocol ISO 9141-2 (5 baud init, 10.4 kbaud)TOYOTA</item>
+        <item>ATSP4,Set protocol ISO 14230-4 KWP (5 baud init, 10.4 kbaud)</item>
+        <item>ATSP5,Set protocol ISO 14230-4 KWP (fast init, 10.4 kbaud)</item>
+        <item>ATSP6,Set protocol ISO 15765-4 CAN (11 bit ID, 500 kbaud)</item>
+        <item>ATSP7,Set protocol ISO 15765-4 CAN (29 bit ID, 500 kbaud)</item>
+        <item>ATSP8,Set protocol ISO 15765-4 CAN (11 bit ID, 250 kbaud)</item>
+        <item>ATSP9,Set protocol ISO 15765-4 CAN (29 bit ID, 250 kbaud)</item>
+        <item>ATSHE410F1</item>
+        <item>AT @1,MUESTRA DESCRPCION DEL ELM327</item>
+        <item>ATDP,MUESTRA EL PROTOCOLO ACTUAL</item>
+        <item>ATDPN,MUESTRA EL nº DE PROTOCOLO</item>
+        <item>ATRV,MUESTRA EL VOLTAJE</item>
+        <item>ATAR,Automatically Receive</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="comandos2">
+        <item>,Selecciona CMD,</item>
+        <item>ATI,ELM version information</item>
+        <item>AT @1,MUESTRA DESCRPCION DEL ELM327</item>
+        <item>ATZ,inicializacion</item>
+        <item>ATSP0,ESTABLECE PROTOCOLO AUTO</item>
+        <item>ATDP,MUESTRA EL PROTOCOLO ACTUAL</item>
+        <item>ATDPN,MUESTRA EL nº DE PROTOCOLO</item>
+        <item>ATRV,MUESTRA EL VOLTAJE</item>
+        <item>0100,PIDs soportados</item>
+
+    </string-array>
+
+
+</resources>

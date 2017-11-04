@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+              <!--android:nestedScrollingEnabled="false"-->
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Progreso"
+            android:id="@+id/textView2" android:textColor="#3647ff" android:gravity="center_horizontal"
+            android:textAlignment="center" android:textSize="20dp" android:textIsSelectable="true"/>
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView2" android:layout_weight="0.01">
+            <TextView
+
+                    android:id="@+id/info"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            <!-- android:nestedScrollingEnabled="false"-->
+
+    </ScrollView>
+    <!--<View android:id="@+id/SplitLine_hor2" android:layout_width="match_parent" android:layout_height= "10dp"
+          android:visibility="visible" android:background="#067dff" android:clickable="false"
+          android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:textAlignment="center"
+    />-->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Respuestas recibidas"
+            android:id="@+id/textView" android:textColor="#3647ff" android:gravity="center_horizontal"
+            android:textAlignment="center" android:textSize="20dp" android:textIsSelectable="true"
+            android:paddingTop="10dp" android:paddingBottom="10dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:id="@+id/tv_respuesta" android:background="@android:color/white"
+            android:focusable="false" android:focusableInTouchMode="false"
+            android:layout_margin="5dp"/>
+    <!--android:nestedScrollingEnabled="false"-->
+    <View android:id="@+id/SplitLine_hor1" android:layout_width="match_parent" android:layout_height= "10dp"
+          android:visibility="visible" android:background="#067dff" android:clickable="true"
+          android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="68dp" android:weightSum="1" >
+        <EditText
+                android:layout_width="209dp"
+                android:layout_height="40dp"
+                android:id="@+id/etCMD" android:background="#fafff9" android:inputType="text" android:editable="true"
+                android:textColor="#2945ff" android:focusable="true"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:id="@+id/btnEnviarCMD" android:layout_weight="0.63"
+                 android:onClick="enviarCMD"/>
+        <!--android:nestedScrollingEnabled="false"-->
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ejecutar lista"
+                android:id="@+id/btnEnviarListaComandos"/>
+        <Spinner
+                android:layout_width="244dp"
+                android:layout_height="match_parent"
+                android:id="@+id/comboCMD" android:spinnerMode="dialog" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
